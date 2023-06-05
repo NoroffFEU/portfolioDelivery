@@ -1,0 +1,125 @@
+body{
+  background: linear-gradient(to bottom, #B99E84, #000000);
+  font-family: 'Playfair Display', serif;
+}
+header{
+  display: flex;
+  margin: 15px;
+}
+h1{
+  font-size: 45px;
+  margin: 0px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to bottom, #ffffff, #B99E84);
+}
+.by-header{
+  font-size: 20px;
+  margin-left: 10px;
+  color: white;
+}
+.profile-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img{
+  border-radius: 50%;
+  width: 15%;
+  height: auto;
+  text-align: center;
+}
+.welcome-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 230px;
+  line-height: 150%;
+  color: white;
+  font-size: 18px;
+
+}
+.welcome-container p{
+  letter-spacing: 0.04em;
+  font-size: 15px;
+}
+h2 {
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+}
+.card-container{
+  display: flex;
+
+
+
+}
+.card{
+  flex-basis: calc(29.33% - 20px);
+  margin: 35px;
+  box-shadow: 0 2px 4px rgba(0, 0, 1, 0.6);
+  padding: 20px;
+  color: white;
+  letter-spacing: 0.04em;
+  font-size: 15px;
+}
+.img-card {
+  width: 100%;
+  border-radius: 4%;
+  height: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.82);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  filter: brightness(70%);
+  transition: transform 0.5s ease;
+}
+.img-card:hover{
+  filter: brightness(100%);
+  transform: scale(1.2);
+}
+.heading-project {
+  display: flex;
+  justify-content: center;
+}
+.site-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+  gap: 25px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+a:hover{
+  transform: scale(1.2);
+}
+footer{
+  border-top: 2px solid #80808047;
+  margin: 40px;
+}
+.lets-talk,
+.find-me p,
+.footer-text{
+  color: white;
+}
+.lets-talk a:hover{
+  text-decoration: underline;
+}
+
+.flex-contact{
+  display: flex;
+  justify-content: space-between;
+}
+.contact-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  font-size: 20px;
+}
