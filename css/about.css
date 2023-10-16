@@ -1,0 +1,37 @@
+.skill-header{
+  margin-left: 40px;
+  margin-top: 80px;
+  color: #534134;
+  justify-content: center;
+  display: flex;
+}
+
+.skills-list {
+  font-size: 18px;
+  color: white;
+  margin-top: 45px;
+  justify-content: center;
+  display: flex;
+  color: #333;
+}
+
+.info {
+  color: #534134;
+  margin: 0px 50px;
+  line-height: 1.6;
+  width: 185%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.about-container {
+  display: flex;
+  align-items: center; /* Sentrer vertikalt */
+}
+
+
+
+.line-img{
+  width: 50%;
+  margin-right: 50px;
+}

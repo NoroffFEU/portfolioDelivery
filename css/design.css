@@ -1,0 +1,22 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.project {
+  background-color: #f3e6d5;
+  padding: 20px;
+}
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+.project p {
+  margin-top: 10px;
+}
