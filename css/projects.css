@@ -16,7 +16,7 @@ h2{
 
 @keyframes slideInFromRight {
   0% {
-    transform: translateX(100%);
+    transform: translateX(80%);
     opacity: 0;
   }
   100% {
@@ -26,9 +26,11 @@ h2{
 }
 
 .heading-project {
-  transform: translateX(100%);
+  transform: translateX(80%);
   opacity: 0;
   transition: transform 1s ease, opacity 1s ease;
+  font-size: 1.5rem;
+  margin-top: 0;
 }
 
 
@@ -54,10 +56,6 @@ h2{
   margin-bottom: 10px;
 }
 
-.heading-project {
-  font-size: 1.5rem;
-  margin-top: 0;
-}
 
 .site-links a {
   display: inline-block;
@@ -77,9 +75,6 @@ h2{
 
 }
 
-.h2-projects{
-  margin-top: 75px;
-}
 .custom-icon {
   margin: 10px;
   color: #484848;

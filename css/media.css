@@ -8,40 +8,6 @@
 
 
 
-  .hamburger {
-    display: flex;
-    top: 28px;
-    right: 28px;
-    position: fixed;
-  }
-
-  .menu-list {
-    display: none;
-    position: absolute;
-    top: 0px;
-    right: 28px;
-    background-color: #ffffff7a;
-    padding: 20px;
-    width: 38%;
-    z-index: 1;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  }
-
-  .menu-list.active {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 28px 20px;
-  }
-
-  .menu-list li {
-    display: block;
-    margin-bottom: 15px;
-    margin-right: 0px;
-  }
-
-
-
 
 
  
@@ -59,8 +25,12 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 60px;
-  }
+    top: 6%;
+    left: 0px;  }
+
+    .nav-menu ul{
+      padding: 0px;
+    }
 
 
   h2{
@@ -83,14 +53,12 @@
 }
 
 .card-content h2{
-  width: 100%;
   margin-top: 20px;
 }
 
 .card-content p,
 .site-links{
-  margin: 10px;
-}
+  margin: 8px;}
 
 .sliding-text h2{
   margin-bottom: 0px;
@@ -130,6 +98,10 @@
   margin: 0px;
 }
 
+.heading-project{
+  font-size: 22px;
+}
+
 }
 
 
@@ -138,5 +110,6 @@
     font-size: 14px;
     gap: 15px;
   }
+  
 }
 

@@ -2,29 +2,6 @@
 
 
 
-/* Hamburger Menu Styles */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: #333;
-  margin: 3px 0;
-  transition: 0.4s;
-}
-
-.menu-list {
-  list-style-type: none;
-}
-
-.menu-list li {
-  display: inline;
-  margin-right: 20px;
-}
 
 
 
@@ -91,8 +68,7 @@ header{
 
 h1 {
   font-size: 26px;
-  margin-left: 10px;
-  color: #534134;
+    color: #534134;
   text-align: center;
   margin-top: 20px;
 }
@@ -104,8 +80,8 @@ h2 {
   font-weight: lighter;
   font-family: 'Antic Didone', serif;  line-height: 99px;
   margin-left: 10px;
-  margin-top: 116px;
-  background-color: #8e76643d;
+  margin-top: 10%;
+    background-color: #8e76643d;
   padding: 26px;
 }
 
