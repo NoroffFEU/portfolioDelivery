@@ -1,3 +1,44 @@
+
+
+
+
+/* Hamburger Menu Styles */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.menu-list {
+  list-style-type: none;
+}
+
+.menu-list li {
+  display: inline;
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .active{
   text-decoration: underline;
 }

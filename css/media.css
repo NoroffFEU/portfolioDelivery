@@ -4,6 +4,46 @@
   body{
     background-attachment: inherit;
   }
+
+
+
+
+  .hamburger {
+    display: flex;
+    top: 28px;
+    right: 28px;
+    position: fixed;
+  }
+
+  .menu-list {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 28px;
+    background-color: #ffffff7a;
+    padding: 20px;
+    width: 38%;
+    z-index: 1;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .menu-list.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 20px;
+  }
+
+  .menu-list li {
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 0px;
+  }
+
+
+
+
+
  
   .card-container {
     display: block;
@@ -19,12 +59,9 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 115px;
+    top: 60px;
   }
 
-  .nav-menu ul{
-    padding: 0px;
-  }
 
   h2{
     font-size: 30px;
