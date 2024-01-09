@@ -7,11 +7,11 @@
 .designs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 70px;
+  padding: 40px;
 }
 .project {
-  background-color: #f3e6d5;
-  padding: 20px;
+
 }
 .project img {
   max-width: 100%;
@@ -19,4 +19,19 @@
 }
 .project p {
   margin-top: 10px;
+}
+
+
+.design-header {
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 45px;
+  color: white;
+  margin: 0px;
+}
+
+.design-container {
+  background-color: #736e69;
 }

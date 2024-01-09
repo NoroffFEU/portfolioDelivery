@@ -1,12 +1,28 @@
+.projects-container {
+  background-color: #e8e7e7;
+}
+
+.projects-header {
+  text-align: center;
+  color: #302d2b;
+  margin: 0px;
+  justify-content: center;
+  display: flex;
+  padding-top: 100px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 45px;
+}
+
 .card{
   display: flex;
-  margin-top: 60px;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin: 60px 100px 50px 100px;
 }
 
 .img-card {
-  max-width: 520px;
+  width: 283px;
+  height: 300px;
+  object-fit: cover;
 
 }
 
@@ -49,13 +65,26 @@ h2{
   margin-left: 0px;
   margin-top: 0px;
   line-height: 81px;
+  justify-content: center;
+  display: flex;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  margin-bottom: 0px;
 }
 
 .card-content p {
   color: #484848;
   margin-bottom: 10px;
+  text-align: center;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0px;
 }
 
+.site-links {
+  text-align: center;
+}
 
 .site-links a {
   display: inline-block;

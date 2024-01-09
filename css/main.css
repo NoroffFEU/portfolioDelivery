@@ -8,12 +8,25 @@
 
 
 
+.h3-projects{
+  margin-left: 130px;
+  margin-top: 0px;
+  color: #ffffffe8;
+  font-family: 'Jost', sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+}
 
 
 
-
-
-
+.h2-projects{
+  color: #ffffffe8;
+  font-size: 57px;
+  width: 70%;
+  margin-left: 130px;
+  margin-bottom: -12px;
+  font-family: 'Jost', sans-serif;
+}
 
 
 .active{
@@ -22,8 +35,9 @@
 
 body, html {
   min-height: 100vh;
+  margin: 0px;
 }
-
+/*
 body{
   background-image: url(../images/background.jpg);
   background-size: cover;
@@ -32,11 +46,24 @@ body{
   font-family: 'Noto Sans JP', sans-serif;
   margin: 0px;
 }
+*/
+
+.logo{
+  width: 20%;
+  top: 10px;
+  position: absolute;
+}
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+}
 
 .nav-menu {
-  position: absolute;
-  top: 10px; 
-  left: 10px;
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  top: 12px;
+  position: relative;
 }
 
 ul {
@@ -45,18 +72,20 @@ ul {
 
 li {
   display: inline;
-  margin-right: 20px;
 }
 
 a {
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
   
 }
 
 
 .nav-color {
   color: #534134;
+  border-right: 1px solid #00000042;
+  padding: 4px 19px;
+  font-size: 13px;
 }
 
 
@@ -66,29 +95,32 @@ header{
 }
 
 
-h1 {
+.h-1 {
   font-size: 26px;
     color: #534134;
-  text-align: center;
-  margin-top: 20px;
+    top: 12px;
+    position: absolute;
+}
+.h-2{
+  font-size: 26px;
+  color: #534134;
+  top: 12px;
+  position: absolute;
 }
 
-h2 {
-  color: white;
-  font-size: 57px;
-  width: 70%;
-  font-weight: lighter;
-  font-family: 'Antic Didone', serif;  line-height: 99px;
-  margin-left: 10px;
-  margin-top: 10%;
-    background-color: #8e76643d;
-  padding: 26px;
-}
+
 
 .sliding-text h2 {
   display: inline-block;
   transform: translateX(100%);
   animation: slideIn 2s ease forwards;
+  color: rgb(45, 38, 33);  
+  font-size: 57px;
+  width: 70%;
+  font-weight: lighter;
+  margin-left: 10px;
+  margin-top: 10%;
+  padding: 26px;
 }
 
 @keyframes slideIn {
@@ -98,18 +130,23 @@ h2 {
 }
 
 
+
+
 footer{
 
-  background: linear-gradient(to bottom, rgba(142, 118, 100, 0) 0%, rgba(142, 118, 100, 1) 100%);
-  padding-top: 115px;
-  padding-bottom: 35px;
+  background: #4f4c49;
+  padding-top: 50px;
+  padding-bottom: 12px;
   padding-right: 35px;
   padding-left: 35px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 200;
 }
 .lets-talk,
 .find-me p,
 .footer-text{
   color: white;
+  font-size: 17px;
 }
 .lets-talk a:hover{
   text-decoration: underline;
@@ -124,4 +161,41 @@ footer{
   justify-content: space-between;
   gap: 25px;
   font-size: 26px;
+}
+
+.copy-right{
+  font-size: 14px;
+  padding-top: 30px;
+  color: #cacaca;
+}
+
+.lets-talk p{
+  margin-bottom: 0px;
+}
+
+/*education*/
+
+.education-container {
+  background-color: #d5d1cf;  
+  padding-bottom: 100px;
+}
+
+.education-header {
+  color: #302d2b;
+  margin: 0px;
+  justify-content: center;
+  display: flex;
+  padding-top: 100px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 45px;
+}
+
+.education-info {
+  display: flex;
+  justify-content: center;
+  padding: 0px 160px 0px 160px;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  color: #595350;
 }
