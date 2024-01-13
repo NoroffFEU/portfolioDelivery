@@ -7,11 +7,13 @@
 
 
   .nav-a {
-    padding: 4px 10px;
-    font-size: 8px;
+    padding: 4px 8px;
+    font-size: 10px;
   }
 
-
+  .line-img {
+    width: 35%;
+  }
 
 
  
@@ -91,6 +93,7 @@
 .about-container {
   display: grid;
   justify-items: center;
+  padding-bottom: 30px;
 }
 
 .info{
@@ -104,8 +107,9 @@
 }
 
 .skill-header{
-  margin: 35px 20px;
-  font-size: 13px;
+  margin: 0px 20px;
+  font-size: 14px;
+  padding-top: 50px;
 }
 
 .skills-list{
@@ -113,14 +117,35 @@
   display: grid;
   justify-items: center;
   gap: 10px;
+  padding-bottom: 40px;
 }
 
 .skills-list li{
-  margin: 0px;
+  margin: 5px;
 }
 
 .heading-project{
   font-size: 22px;
+}
+
+.education-header {
+  padding-top: 50px;
+}
+
+.education-info {
+  padding: 0px 20px;
+}
+
+.projects-header {
+  padding-top: 50px;
+}
+
+.footer-text {
+  font-size: 16px;
+}
+
+.lets-talk, .find-me p {
+  font-size: 11px;
 }
 
 }
