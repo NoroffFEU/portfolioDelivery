@@ -25,13 +25,15 @@
     font-size: 12px;
   }
 
-
+.logo{
+  width: 35%;
+}
 
   .nav-menu{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 30px;
+    top: 45px;
     left: 0px;  }
 
     .nav-menu ul{
@@ -68,6 +70,18 @@
 
 .sliding-text h2{
   margin-bottom: 0px;
+  font-size: 30px;
+}
+
+.h2-projects{
+  font-size: 25px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+.h3-projects{
+  font-size: 15px;
+  margin-left: 20px;
 }
 .designs{
   display: block;
