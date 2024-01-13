@@ -81,12 +81,14 @@ a {
 }
 
 
-.nav-color {
+.nav-a {
   color: #534134;
   border-right: 1px solid #00000042;
   padding: 4px 19px;
   font-size: 13px;
 }
+
+
 
 
 header{
