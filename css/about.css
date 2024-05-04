@@ -1,8 +1,7 @@
-
-
 .skill-container {
-  background-color: #4f4c49;}
-
+  background-color: #4f4c49;
+  padding: 20px;
+}
 
 .skill-header{
   color: #fff;
@@ -24,10 +23,14 @@
   color: #fff;
   font-weight: 200;
   font-family: 'Jost', sans-serif;
-  display: flex;
+  flex-wrap: wrap;
   gap: 26px;
   padding: 0px 0px 100px 0px;
   margin-bottom: 0px;
+}
+
+.skills-list li {
+  width: 50%;
 }
 
 .info {
